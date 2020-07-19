@@ -1,0 +1,99 @@
+
+body {
+  font-family: Times;
+  font-size: 18px;
+  color: rgb(30, 30,30);
+  background-color: white;
+  margin:0;
+}
+
+h1, h2, h3 { 
+  font-family: 'Roboto Condensed', sans-serif;;
+  color: #2ec4b6;
+  text-align: center;
+ }
+
+ p{
+  text-align:center;
+ }
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+
+a {
+  text-decoration: none;
+  color:black;
+  background-color: #2ec4b6;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #f7fff7;
+}
+
+/* Custom Class design */
+
+.button-black{
+  background-color: #2ec4b6;
+  color:black;
+  padding: 8px 15px ;
+  border-radius: 2px;
+}
+
+.banner { 
+background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(images/background.jpg);
+background-size:cover;
+color:white;
+background-position: center;
+text-align: center;
+padding: 150px 0px;
+ }
+
+.banner h1 {
+  font-size: 40px;
+  margin:0;
+}
+
+
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 2px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+}
+
+.footer {
+  background: #404042;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer p {
+  color: white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
